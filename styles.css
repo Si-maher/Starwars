@@ -14,6 +14,7 @@ body {
     width: 1000px;
     height: 1600px;
     transform: perspective(250px) rotateX(20deg);
+    animation: scrollCrawl 10s linear;
 }
 span {
     text-transform: uppercase;
@@ -28,3 +29,14 @@ span {
 .header {
     margin: 0 0 100px 0;
 }
+@keyframes scrollCrawl {
+    0% {
+        transform: perspective(250px) rotateX(20deg) translateY(680px);
+    }
+    50%{}
+    100%{
+        transform: perspective(250px) rotateX(20deg) translateY(-4000px);
+    }
+}
+        
+
