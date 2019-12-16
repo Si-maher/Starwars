@@ -1,0 +1,6 @@
+body {
+    background: url("./starwars.png");
+    background-size: cover;
+    overflow: hidden;
+    color: #ffb13a;
+}
