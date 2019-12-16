@@ -4,6 +4,7 @@ body {
     overflow: hidden;
     color: #ffb13a;
 }
+
 .crawl {
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
@@ -12,4 +13,17 @@ body {
     line-height: 80px;
     width: 1000px;
     height: 1600px;
+}
+span {
+    text-transform: uppercase;
+}
+.preheader, .header {
+    text-align: center;
+    text-transform: uppercase;
+}
+.preheader {
+    margin: 40px 0;
+}
+.header {
+    margin: 0 0 100px 0;
 }
