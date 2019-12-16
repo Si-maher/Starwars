@@ -14,7 +14,7 @@ body {
     width: 1000px;
     height: 1600px;
     transform: perspective(250px) rotateX(20deg);
-    animation: scrollCrawl 10s linear;
+    animation: scrollCrawl 90s linear;
 }
 span {
     text-transform: uppercase;
